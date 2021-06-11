@@ -8,11 +8,13 @@ body{
     background-color: white;
 }
 
+
+
 .conteiner{
-    width: 1000px;
-    height: 600px;
-    position: absolute;
-    top: 60px;
+    width: 60%;
+    height: 700px;
+    margin: 0 auto;
+    top: 20px;
     left: 250px;
 }
 /*Riga in alto*/
@@ -22,6 +24,8 @@ body{
     position: relative;
 }
 
+
+
 .top-left, .bottom-left{
     position: absolute;
     left: 70px;
@@ -29,24 +33,61 @@ body{
 
 .top-center, .bottom-center{
     position: absolute;
-    left: 400px;
+    left: 280px;
 }
 
 .top-right, .bottom-right{
     position: absolute;
-    right: 70px;
+    left: 490px;
 }
 
 
 
-/*Celle riga in alto*/
+/*Celle riga in alto e in basso*/
 
 
 .cella{
     width: 200px;
-    height: 250px;
+    height: 300px;
+    position: relative;
 }
 
+.scatola-cuore{
+    position: absolute;
+    top: 5px;
+    right: 0;
+    background-color: white;
+    width: 40px;
+    height: 40px;
+}
+.cuore{
+    position: absolute;
+    top: 7px;
+    right: 7px;
+}
+
+.sconto{
+    position: absolute;
+    bottom: 10px;
+    background-color: red;
+    width: 40px;
+    height: 30px;
+}
+
+.sconto-text .sostenibilita{
+    text-align: center;
+    
+}
+.sostenibilita{
+    position: absolute;
+    bottom: 10px;
+    left: 45px;
+    background-color: green;
+    width: 100px;
+    height: 30px;
+}
+
+/*Riga in alto*/
 
 /*Sinistra*/
 .top-left{
