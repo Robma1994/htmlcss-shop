@@ -1,40 +1,77 @@
 *{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    box-sizing:border-box;
 }
 
 body{
-    background-color: green;
-}
-
-/*Riga uno: Immagine 1 - immagine 2 - immagine 3*/
-.row-one{
-    position: absolute;
-    top: 70px;
-    left: 340px;
     background-color: white;
-    width: 800px;
-    height: 300px;
 }
 
-
-
-
-
-
-
-
-
-
-
-/*
-.row-two{
+.conteiner{
+    width: 1000px;
+    height: 600px;
     position: absolute;
-    bottom: 55px;
-    left: 340px;
-    background-color: white;
-    width: 800px;
-    height: 300px;
+    top: 60px;
+    left: 250px;
 }
-*/
+/*Riga in alto*/
+.row{
+    width: 100%;
+    height: 50%;
+    position: relative;
+}
+
+.top-left, .bottom-left{
+    position: absolute;
+    left: 70px;
+}
+
+.top-center, .bottom-center{
+    position: absolute;
+    left: 400px;
+}
+
+.top-right, .bottom-right{
+    position: absolute;
+    right: 70px;
+}
+
+
+
+/*Celle riga in alto*/
+
+/*Sinistra*/
+.cella{
+    width: 200px;
+    height: 250px;
+    background-color: red;
+}
+.top-left{
+    position: absolute;
+    top: 10px;
+}
+
+.top-center{
+    position: absolute;
+    top: 10px;
+}
+
+.top-right{
+    position: absolute;
+    top: 10px;
+}
+
+/*centro*/
+
+/*Destra*/
+
+/*Fine riga in alto*/
+
+/*Riga in basso*/
+/*Cella riga in basso*/
+.bottom-left, .bottom-center, .bottom-right{
+    position: absolute;
+    top: 30px;
+}
+/*Fine cella riga in basso*/
