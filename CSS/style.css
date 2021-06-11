@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: green;
+}
+
+/*Riga uno: Immagine 1 - immagine 2 - immagine 3*/
+.row-one{
+    position: absolute;
+    top: 70px;
+    left: 340px;
+    background-color: white;
+    width: 800px;
+    height: 300px;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*
+.row-two{
+    position: absolute;
+    bottom: 55px;
+    left: 340px;
+    background-color: white;
+    width: 800px;
+    height: 300px;
+}
+*/
