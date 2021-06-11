@@ -41,37 +41,96 @@ body{
 
 /*Celle riga in alto*/
 
-/*Sinistra*/
+
 .cella{
     width: 200px;
     height: 250px;
-    background-color: red;
 }
+
+
+/*Sinistra*/
 .top-left{
     position: absolute;
     top: 10px;
+    background-image: url("../img/1.webp");
+    background-size: cover;
 }
 
+.top-left:hover{
+    background-image: url("../img/1b.webp");
+    background-size: cover;
+}
+/*Fine Sinistra*/
+
+/*Centro*/
 .top-center{
     position: absolute;
     top: 10px;
+    background-image: url("../img/2.webp");
+    background-size: cover;
 }
+
+.top-center:hover{
+    background-image: url("../img/2b.webp");
+    background-size: cover;
+}
+/*Fine centro*/
+
+
+/*Destra*/
 
 .top-right{
     position: absolute;
     top: 10px;
+    background-image: url("../img/3.jpg");
+    background-size: cover;
 }
-
-/*centro*/
-
-/*Destra*/
+/*Fine destra*/
 
 /*Fine riga in alto*/
 
+
 /*Riga in basso*/
-/*Cella riga in basso*/
+/*Celle riga in basso*/
 .bottom-left, .bottom-center, .bottom-right{
     position: absolute;
     top: 30px;
 }
+
+/*Cella in basso a sinistra*/
+.bottom-left{
+    background-image: url("../img/4.webp");
+    background-size: cover;
+}
+
+.bottom-left:hover{
+    background-image: url("../img/4b.webp");
+    background-size: cover;
+}
+/*Fine cella in basso a sinistra*/
+
+/*Cella in basso al centro*/
+.bottom-center{
+    background-image: url("../img/5.webp");
+    background-size: cover;
+}
+.bottom-center:hover{
+    background-image: url("../img/5b.webp");
+    background-size: cover;
+}
+/*Fine cella in basso al centro*/
+
+/*Cella in basso a destra*/
+.bottom-right{
+    background-image: url("../img/6.webp");
+    background-size: cover;
+}
+
+.bottom-right:hover{
+    background-image: url("../img/6b.webp");
+    background-size: cover;
+}
+
+/*Fine cella in basso a destra*/
+
 /*Fine cella riga in basso*/
