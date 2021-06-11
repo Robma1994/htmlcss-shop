@@ -12,7 +12,7 @@ body{
 
 .conteiner{
     width: 60%;
-    height: 700px;
+    height: 750px;
     margin: 0 auto;
     top: 20px;
     left: 250px;
@@ -23,6 +23,9 @@ body{
     height: 50%;
     position: relative;
 }
+
+
+
 
 
 
@@ -101,9 +104,39 @@ body{
     background-image: url("../img/1b.webp");
     background-size: cover;
 }
+.marca{
+    font-size: 12px;
+    position: absolute;
+    bottom: 40px;
+    left: 70px;
+}
+.titolo{
+    position: absolute;
+    bottom: 20px;
+    left: 70px;
+    font-weight: 900;
+    font-size: 13px;
+}
+
+.price-red{
+    position: absolute;
+    bottom: 5px;
+    left: 70px;
+    color: red;
+    font-size: 10px;
+}
+
+.price-overline{
+    position: absolute;
+    bottom: 5px;
+    left: 102px;
+    font-size: 10px;
+    text-decoration: line-through;
+}
+
 /*Fine Sinistra*/
 
-/*Centro*/
+/*Riga in alto-Centro*/
 .top-center{
     position: absolute;
     top: 10px;
@@ -115,7 +148,39 @@ body{
     background-image: url("../img/2b.webp");
     background-size: cover;
 }
-/*Fine centro*/
+
+.marca-centro{
+    font-size: 12px;
+    position: absolute;
+    bottom: 40px;
+    left: 280px;
+}
+.titolo-centro{
+    position: absolute;
+    bottom: 20px;
+    left: 280px;
+    font-weight: 900;
+    font-size: 13px;
+}
+
+.price-red-centro{
+    position: absolute;
+    bottom: 5px;
+    left: 280px;
+    color: red;
+    font-size: 10px;
+}
+
+.price-overline-centro{
+    position: absolute;
+    bottom: 5px;
+    left: 310px;
+    font-size: 10px;
+    text-decoration: line-through;
+}
+
+
+/*Fine riga alto-centro*/
 
 
 /*Destra*/
@@ -126,6 +191,36 @@ body{
     background-image: url("../img/3.jpg");
     background-size: cover;
 }
+.marca-top-destra{
+    font-size: 12px;
+    position: absolute;
+    bottom: 40px;
+    left: 490px;
+}
+.titolo-top-destra{
+    position: absolute;
+    bottom: 20px;
+    left: 490px;
+    font-weight: 900;
+    font-size: 13px;
+}
+
+.price, .red-top-destra{
+    position: absolute;
+    bottom: 5px;
+    left: 490px;
+    color: red;
+    font-size: 10px;
+}
+
+.price-overline-top-destra{
+    position: absolute;
+    bottom: 5px;
+    left: 520px;
+    font-size: 10px;
+    text-decoration: line-through;
+}
+
 /*Fine destra*/
 
 /*Fine riga in alto*/
@@ -148,6 +243,38 @@ body{
     background-image: url("../img/4b.webp");
     background-size: cover;
 }
+
+.marca-bottom-left{
+    font-size: 12px;
+    position: absolute;
+    bottom: 30px;
+    left: 70px;
+}
+.titolo-bottom-left{
+    position: absolute;
+    bottom: 10px;
+    left: 70px;
+    font-weight: 900;
+    font-size: 13px;
+}
+
+.price-bottom-left{
+    position: absolute;
+    bottom: 0px;
+    left: 70px;
+    color: red;
+    font-size: 10px;
+}
+
+.price-overline-bottom-left{
+    position: absolute;
+    bottom: 0px;
+    left: 100px;
+    font-size: 10px;
+    text-decoration: line-through;
+}
+
+
 /*Fine cella in basso a sinistra*/
 
 /*Cella in basso al centro*/
@@ -175,3 +302,4 @@ body{
 /*Fine cella in basso a destra*/
 
 /*Fine cella riga in basso*/
+
